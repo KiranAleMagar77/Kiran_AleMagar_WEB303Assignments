@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Kiran--Marvel Characters</h1>
+    <div id="search-container">
+        <label for="search">Search by First Name:</label>
+        <input type="text" id="search" placeholder="Enter first name">
+      </div>
+      <table id="character-table">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>SuperHero Name</th>
+            <th>Power</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- The Table data will populate here -->
+        </tbody>
+      </table>
+      <div id="filter-container">
+        <button class="filter-btn" data-filter="A-M">A - M (<span>0</span>)</button>
+        <button class="filter-btn" data-filter="N-Z">N - Z (<span>0</span>)</button>
+      </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

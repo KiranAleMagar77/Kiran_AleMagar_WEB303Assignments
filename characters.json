@@ -1,0 +1,10 @@
+[
+    {"firstName": "Tony", "lastName": "Stark", "age": 45,"superHeroName": "Iron Man",  "power": "Genius-level intellect, powered armor suit"},
+    {"firstName": "Steve", "lastName": "Rogers", "age": 30,"superHeroName": "Captain America",  "power": "Superhuman strength, agility, and endurance"},
+    {"firstName": "Natasha", "lastName": "Romanoff", "age": 32,"superHeroName": "Black Widow",  "power": "Expert martial artist and spy"},
+    {"firstName": "Bruce", "lastName": "Banner", "age": 42,"superHeroName": "Hulk",  "power": "Superhuman strength and durability, gamma radiation transformation"},
+    {"firstName": "Thor", "lastName": "Odinson","age": 100, "superHeroName": "Thor",  "power": "God of Thunder, superhuman strength and durability"},
+    {"firstName": "Peter", "lastName": "Parker", "age": 16,"superHeroName": "Spider-Man",  "power": "Wall-crawling, spider sense, superhuman strength and agility"},
+    {"firstName": "Wanda", "lastName": "Maximoff", "age": 19, "superHeroName": "Scarlet Witch",  "power": "Reality manipulation, chaos magic"}
+  ]
+  
