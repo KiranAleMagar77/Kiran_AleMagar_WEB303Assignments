@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 176, 142);
+    font-family: 'Sometype Mono', monospace;
+    color: #333;
+}
+
+
+
+/* Header */
+header {
+	background-color: #6f6868;
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    padding-top: 10px;
+}
+
+h2 {
+	font-weight: bold;
+
+}
+
+
+/* Search input */
+/* Filter and search options */
+#buttons, #searchInput {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Filter buttons */
+button {
+	background-color: #d7d7d7;
+	border: none;
+	padding: 3px 10px 4px 10px;
+	border-radius: 4px;
+	color: #333;
+	font-family: 'Karla', sans-serif;
+	font-size: 100%;}
+
+button:hover, button.active {
+	background-color: #00cccc;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+input {
+	font-size: 120%;
+	border: 1px solid #999;
+	padding: 5px;
+	background-color: antiquewhite;
+}
+	
+input:hover {
+	border: 1px solid #666;
+}
+
+
+input:focus {
+	border: 1px solid #00cccc;
+	outline: none;
+}
+
+
+/* Table styles */
+table {
+	margin: 0 auto;
+	width: 780px;
+}
+
+table#rates	{
+    width: 380px;
+}
+
+th, td {
+	border-radius: 3px;
+	color: #333;
+	padding: 7px 10px 5px 10px;
+	min-width: 9em;
+	text-align: left;
+}
+
+th {
+	background-color: #a69f9f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+td {
+	background-color: #fff;
+}
+
+table.sortable th:hover {
+	cursor: pointer;
+}
+
+th.ascending, th.descending, table.sortable th:hover {
+	background-color: #00cccc;
+	color: #fff;
+}
+
+
+/* Arrows for table sorting */
+th.ascending:after {
+	font-size: 60%;
+    content: '\25B2';
+    float: left;
+	padding: 4px 5px 0 0;
+}
+
+
+th.descending:after {
+	font-size: 60%;
+    content: '\25BC';
+    float: left;
+	padding: 4px 5px 0 0;
+}
+
+
+
+.about {
+	width: 513px;
+	margin: 0 auto 40px auto;
+
+}
+
+
+.about:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.about h2 {
+  text-align: left; 
+  float: left;
+}
+
+
+.bio {
+	width: 195px;
+}
+
+
+.bio img {
+	float: center;
+	width: 500px;
+
+	margin-right: 10px;
+}
+
+
