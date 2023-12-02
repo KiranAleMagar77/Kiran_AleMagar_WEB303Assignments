@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        Kiran Ale Magar
+    </h1>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    
+        <label for="password">Password (at least 12 characters):</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+    
+        <label>
+            <input type="checkbox" id="termsCheckbox"> I accept the terms of service
+        </label>
+    
+        <label for="countrySelect">Select your country:</label>
+        <select id="countrySelect" name="country" required>
+             <!-- Country options will be added using jQuery  -->
+        </select>
+    
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+
+
+
+    <div id="welcomeMessage" style="display: none;"></div>
+
+    
+
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/countries.js"></script>
+</body>
+
+</html>
